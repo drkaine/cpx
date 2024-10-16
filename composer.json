@@ -29,10 +29,18 @@
             "src/functions.php"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Cpx\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "php": "^8.2"
     },
     "bin": [
         "cpx"
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
 }
